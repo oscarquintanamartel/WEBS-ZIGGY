@@ -1,0 +1,186 @@
+@import url("https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Dancing+Script:wght@400;500;600;700&family=Open+Sans:ital,wght@0,300;0,400;0,500;0,600;0,700;0,800;1,300;1,400;1,500;1,600;1,700;1,800&family=Raleway:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Roboto+Slab:wght@100;200;300;400;500;600;700;800;900&family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap");
+/* NAV */
+.p-nav {
+  padding-left: 10rem;
+}
+
+/* SECTION 1 */
+.section1 {
+  background-image: url("../images/andrew-ridley-jR4Zf-riEjI-unsplash.jpg");
+  background-position: center;
+  background-size: cover;
+  padding: 15vh 25vw;
+}
+.section1 .sec1-son {
+  padding: 2vw;
+  background-color: rgba(255, 255, 255, 0.625);
+  border-radius: 3%;
+}
+.section1 .sec1-son img {
+  width: 15vw;
+  mix-blend-mode: multiply;
+}
+.section1 .sec1-son h1,
+.section1 .sec1-son p {
+  font-family: "Dancing";
+}
+.section1 .sec1-son hr {
+  border: 4px solid #70c6b0;
+  width: clamp(175px, 33%, 260px);
+  opacity: 1;
+}
+
+/* SECTION 2 */
+.section2 {
+  padding: 5vh 6vw;
+}
+.section2 hr {
+  border: 4px solid #70c6b0;
+  width: clamp(250px, 10%, 260px);
+  opacity: 1;
+}
+.section2 h3 {
+  color: #70c6b0;
+  opacity: 1;
+}
+.section2 .hov:hover {
+  cursor: pointer;
+  box-shadow: 0px 0px 5px 1px #70c6b0;
+  transform: scale(1.1);
+  transition: 400ms;
+}
+
+/* SECTION 3 */
+.section3 .dark-aqua {
+  padding: 10vh 10vw;
+  background-color: #469783;
+}
+.section3 .dark-aqua img {
+  width: 100%;
+  -o-object-position: center;
+     object-position: center;
+  -o-object-fit: cover;
+     object-fit: cover;
+}
+.section3 .dark-aqua .pink1 {
+  width: 5vw;
+  padding: 1vw;
+  aspect-ratio: 1/1;
+  border-top: 5px solid #e97b7b;
+  border-left: 5px solid #e97b7b;
+}
+.section3 .dark-aqua .pink2 {
+  width: 5vw;
+  padding: 1vw;
+  aspect-ratio: 1/1;
+  border-bottom: 5px solid #e97b7b;
+  border-right: 5px solid #e97b7b;
+}
+.section3 .light-aqua {
+  padding: 10vh 8vw;
+  background-color: #59bda4;
+}
+.section3 .light-aqua hr {
+  margin-top: 0;
+  width: clamp(250px, 20%, 260px);
+  border: 5px solid #e97b7b;
+  opacity: 1;
+}
+.section3 .light-aqua button {
+  padding: 0.5vw;
+  border: none;
+  border-radius: 5%;
+  background-color: #e97b7b;
+  color: white;
+}
+
+/* SECTION 4 */
+.section4 .s4-son1 {
+  padding: 10vh 8vw;
+}
+.section4 .s4-son1 hr {
+  border: 4px solid #70c6b0;
+  width: clamp(250px, 20%, 260px);
+  opacity: 1;
+}
+.section4 .s4-son1 button {
+  padding: 0.5vw;
+  border: none;
+  border-radius: 5%;
+  background-color: #70c6b0;
+  color: white;
+}
+.section4 img {
+  width: 100%;
+}
+
+/* SECTION 5 */
+.section5 .light-aqua2 {
+  background-color: #59bda4;
+  padding: 10vh 7vw;
+}
+.section5 .dark-aqua2 {
+  background-color: #469783;
+  padding: 10vh 7vw;
+}
+.section5 .dark-aqua2 button {
+  padding: 0.5vw;
+  border: none;
+  border-radius: 5%;
+  background-color: #e97b7b;
+  color: white;
+}
+.section5 hr {
+  margin-top: 0;
+  width: clamp(160px, 20%, 260px);
+  border: 5px solid #e97b7b;
+  opacity: 1;
+}
+.section5 .logo2 img {
+  width: clamp(100px, 10vw, 150px);
+  mix-blend-mode: multiply;
+}
+
+/* SECTION 6  */
+.section6 {
+  padding: 5vh 8vw;
+}
+.section6 hr {
+  margin-top: 0;
+  border: 4px solid #70c6b0;
+  width: clamp(250px, 10%, 260px);
+  opacity: 1;
+}
+.section6 img {
+  width: 100%;
+  -o-object-position: center;
+     object-position: center;
+  -o-object-fit: cover;
+     object-fit: cover;
+}
+.section6 div {
+  display: flex;
+  justify-content: center;
+  padding: 0;
+}
+.section6 .hov2:hover {
+  cursor: pointer;
+  box-shadow: 5px 5px 0px 5px #70c6b0, -5px -5px 0px 5px #e97b7b;
+  transform: scale(1.1);
+  transition: 400ms;
+}
+
+/* FOOTER */
+footer {
+  padding: 5vh;
+  background-color: #469783;
+}
+footer hr {
+  margin-top: 0;
+  width: clamp(250px, 15%, 260px);
+  border: 5px solid #e97b7b;
+  opacity: 1;
+}
+footer .logo3 {
+  width: clamp(250px, 40%, 560px);
+}/*# sourceMappingURL=style.css.map */

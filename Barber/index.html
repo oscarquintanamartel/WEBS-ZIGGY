@@ -1,0 +1,374 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <title>Barber</title>
+
+    <!-- CSS Externo Bootstrap -->
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.1/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+      integrity="sha384-4bw+/aepP/YC94hEpVNVgiZdgIC5+VKNBQNGCHeKRQN+PtmoHDEXuppvnDJzQIu9"
+      crossorigin="anonymous"
+    />
+
+    <!-- CSS Propio -->
+    <link rel="stylesheet" href="./styles/style.css" />
+  </head>
+  <body class="container-fluid">
+    <!-- HEADER -->
+
+    <nav class="navbar bg-body-tertiary fixed-top">
+      <div class="container-fluid separation">
+        <a class="navbar-brand fw-bold fs-3" href="#">BARBER</a>
+        <button
+          class="navbar-toggler"
+          type="button"
+          data-bs-toggle="offcanvas"
+          data-bs-target="#offcanvasDarkNavbar"
+          aria-controls="offcanvasDarkNavbar"
+          aria-label="Toggle navigation"
+        >
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <div
+          class="offcanvas offcanvas-start text-bg-dark"
+          tabindex="-1"
+          id="offcanvasDarkNavbar"
+          aria-labelledby="offcanvasDarkNavbarLabel"
+        >
+          <div class="offcanvas-header">
+            <h5 class="offcanvas-title" id="offcanvasDarkNavbarLabel">
+              BARBER
+            </h5>
+            <button
+              type="button"
+              class="btn-close btn-close-white"
+              data-bs-dismiss="offcanvas"
+              aria-label="Close"
+            ></button>
+          </div>
+          <div class="offcanvas-body">
+            <ul class="navbar-nav justify-content-end flex-grow-1 pe-3">
+              <li class="nav-item">
+                <a
+                  class="nav-link active text-white"
+                  aria-current="page"
+                  href="#"
+                  >Página 1</a
+                >
+              </li>
+              <li class="nav-item">
+                <a
+                  class="nav-link active text-white"
+                  aria-current="page"
+                  href="#"
+                  >Página 2</a
+                >
+              </li>
+            </ul>
+          </div>
+        </div>
+      </div>
+    </nav>
+
+    <!-- MAIN -->
+
+    <main>
+      <!-- SECTION 1 -->
+      <section class="section1 row text-white pb-4">
+        <div class="col-12 col-md-6 offset-6 text-md-end">
+          <p class="h5 fw-bold">HEARS & BEARD</p>
+          <h2>Welcome to the Barber Shop</h2>
+          <button>BARBER SERVICE</button>
+        </div>
+        <div class="col-12 col-md-1 offset-1">
+          <img src="./images/logo.png" alt="logo" />
+        </div>
+      </section>
+
+      <!-- SECTION 2 -->
+      <section class="section2 row">
+        <div class="col-12 col-md-5">
+          <h5>WELCOME TO THE BOARD</h5>
+          <h4>WE ARE BARBER SHOP</h4>
+          <hr />
+          <p>
+            Lorem ipsum dolor sit amet consectetur adipisicing elit. At nemo
+            libero ipsum itaque consectetur aliquam nesciunt magni, adipisci
+            amet. Ducimus, corrupti officiis itaque quas voluptatum velit.
+            Maxime, culpa nam earum incidunt minima officia cupiditate amet
+            accusamus illo illum non repellendus voluptatem repellat ullam esse?
+            Maxime modi illum sit laboriosam reiciendis, ad numquam, officiis a
+            voluptates perferendis porro molestias vero dicta quidem quas eos
+            recusandae corporis explicabo nostrum sapiente dolor commodi!
+          </p>
+          <p>Lorem ipsum dolor sit amet.</p>
+          <button>READ MORE</button>
+        </div>
+        <div class="col-12 col-md-3">
+          <img src="./images/foto2.jpeg" alt="haircut" />
+        </div>
+        <div class="col-12 col-md-4">
+          <h5>+34 666444222</h5>
+          <h4>WORKING HOURS</h4>
+          <hr />
+          <p><span>MON-THU</span> 09:00-19:00</p>
+          <p><span>SAT-SUN</span> 10:00-16:00</p>
+          <p>
+            Lorem ipsum dolor sit amet consectetur adipisicing elit. Minima
+            quibusdam provident cum ipsa quam eveniet quidem ad ratione
+            aspernatur possimus!
+          </p>
+          <hr />
+        </div>
+      </section>
+
+      <!-- SECTION 3 -->
+
+      <section class="section3 row gy-3">
+        <div class="col-12 text-center">
+          <h5>PHOTO GALLERY</h5>
+          <h4>MAN & BOYS FULL SERVICE</h4>
+        </div>
+        <div class="col-12 col-md-6 col-xl-4 d-flex justify-content-center">
+          <img src="./images/foto3.jpeg" alt="clippers" />
+        </div>
+        <div class="col-12 col-md-6 col-xl-4 d-flex justify-content-center">
+          <img src="./images/foto5.jpeg" alt="chair" />
+        </div>
+        <div class="col-12 col-md-6 col-xl-4 d-flex justify-content-center">
+          <img src="./images/foto7.jpeg" alt="utensils" />
+        </div>
+        <div class="col-12 col-md-6 col-xl-4 d-flex justify-content-center">
+          <img src="./images/foto4.jpeg" alt="chair" />
+        </div>
+        <div class="col-12 col-md-6 col-xl-4 d-flex justify-content-center">
+          <img src="./images/foto6.jpeg" alt="barber" />
+        </div>
+        <div class="col-12 col-md-6 col-xl-4 d-flex justify-content-center">
+          <img src="./images/foto8.jpeg" alt="trim" />
+        </div>
+      </section>
+
+      <!-- SECTION 4 -->
+
+      <section class="section4 row gx-">
+        <div class="col-12 text-center">
+          <h5>ABOUT THE BARBER SHOP</h5>
+          <h4>ENJOY YOUR HAIRCUT AGAIN</h4>
+        </div>
+
+        <div class="col-12 col-md-6">
+          <p>
+            Lorem ipsum dolor sit amet, consectetur adipisicing elit. Aliquam
+            consequatur natus excepturi officia itaque eaque cumque deserunt
+            asperiores voluptate beatae, eos explicabo, sequi quis, ipsam
+            distinctio hic illum ratione dolorem laborum maiores dolorum illo
+            saepe assumenda. Ducimus vero similique quas quidem natus aspernatur
+            doloribus, adipisci dolorem itaque totam voluptates perspiciatis,
+            sunt esse enim! Voluptatibus necessitatibus, sint ratione animi odit
+            culpa tempora saepe obcaecati. Iste ratione facere aperiam minima
+            quo nostrum corrupti illum repellat labore sint fugiat totam quia,
+            velit reiciendis! Saepe ea, maiores modi magni nobis incidunt
+            excepturi. Voluptate fugiat, nam suscipit optio cupiditate, nostrum
+            eius reiciendis expedita libero aut omnis ea laboriosam molestiae!
+            Odio ad repellat porro doloremque debitis corporis et ea, vel
+            maxime, voluptatibus, nulla libero accusantium illum officiis
+            corrupti minus! Porro deserunt minus id soluta ipsam illum.
+          </p>
+        </div>
+        <div class="col-12 col-md-6">
+          <p>
+            Lorem ipsum dolor sit amet consectetur adipisicing elit. Illo minus
+            numquam esse dolore amet, iure quasi error repellat, quisquam
+            reprehenderit, ullam eum rem vitae dolores quibusdam. Adipisci optio
+            a aspernatur velit. Exercitationem quisquam ratione accusamus,
+            repellendus tempore eum voluptate porro in dolorum consequuntur
+            rerum cupiditate dolore aspernatur neque esse error vel vitae,
+            deserunt sit iste maxime labore cumque? Optio placeat nihil ducimus
+            eius, ipsa sapiente aspernatur quia quisquam? Ut a ex nemo, facilis
+            culpa temporibus architecto doloribus, iste sint dolore sequi
+            molestiae eos. Laudantium explicabo, dolore perferendis provident
+            cum vitae rem exercitationem labore architecto nisi ducimus aut,
+            voluptate corrupti, numquam necessitatibus suscipit molestiae optio
+            maxime sequi at. Enim, fuga vel sit tempora voluptates quia! Enim
+            sapiente obcaecati, omnis minima ratione laboriosam placeat quas.
+            Suscipit tenetur illo enim? Fugit, laborum sunt!
+          </p>
+        </div>
+        <div class="col-12 text-center">
+          <button>READ MORE</button>
+        </div>
+      </section>
+
+      <!-- SECTION 5 -->
+
+      <section class="section5 row">
+        <div class="col-12 col-md-5 offset-3 beardcut">
+          <img src="./images/foto9.jpeg" alt="beardcut" />
+        </div>
+        <div class="col-12 col-md-5 dark_frame pb-0">
+          <h5>WE SPECIALIZE</h5>
+          <h4 class="text-white">HOT SAVES</h4>
+          <p class="text-white mb-0">
+            Lorem ipsum dolor sit amet consectetur adipisicing elit. Illum
+            voluptas ab veritatis quam a voluptatibus corrupti laborum fugiat!
+            Aliquid, aliquam maiores? Molestias, quo. Incidunt consequatur
+            reprehenderit similique vel cupiditate tempore deserunt! Natus dicta
+            quas deleniti, nobis beatae consequuntur dolore itaque.
+          </p>
+        </div>
+        <div
+          class="col-12 col-md-3 offset-3 d-flex justify-content-center light_frame"
+        >
+          <img src="./images/foto10.jpeg" alt="man" />
+        </div>
+      </section>
+
+      <!-- SECTION 6 -->
+
+      <section class="section6 row">
+        <div class="col-12 col-md-6">
+          <img src="./images/foto11.jpeg" alt="getting-dressed" />
+        </div>
+        <div class="col-12 col-md-6 py-4">
+          <h5>LOOKING A BEAUTIFUL STYKE</h5>
+          <h4>WHAT ARE THE SECRETS OF THE HAIRCUT?</h4>
+          <hr />
+          <p>
+            Lorem ipsum dolor sit amet consectetur adipisicing elit. Laborum
+            earum velit recusandae molestias animi eveniet nulla adipisci ab
+            itaque repellat, asperiores fugit voluptatum sequi dolorum quaerat
+            vel tempore nemo dicta quam assumenda sunt quod odio? Officia
+            obcaecati voluptate earum non pariatur illum excepturi laboriosam,
+            nihil dolores, consectetur dolorum sit minima!
+          </p>
+          <button>READ MORE</button>
+        </div>
+      </section>
+
+      <!-- SECTION 7 -->
+
+      <section class="section7 row">
+        <div class="col-12 text-center">
+          <h5>WE CAN MAKE YOUR AWESOMENESS</h5>
+          <h4>OUR BARBERS</h4>
+        </div>
+        <div class="col-12 col-xl-4 bg-white">
+          <div class="d-flex flex-column align-items-center">
+            <img src="./images/foto12.jpeg" alt="barber1" />
+            <h5>BARBER</h5>
+            <h4>FRED MORRISON</h4>
+          </div>
+        </div>
+        <div class="col-12 col-xl-4 bg-white">
+          <div class="d-flex flex-column align-items-center">
+            <img src="./images/foto13.jpeg" alt="barber2" />
+            <h5>BARBER</h5>
+            <h4>ADRIAN SCOLD</h4>
+          </div>
+        </div>
+        <div class="col-12 col-xl-4 bg-white">
+          <div class="d-flex flex-column align-items-center">
+            <img src="./images/foto14.jpeg" alt="barber3" />
+            <h5>BARBER</h5>
+            <h4>ELMER BRIGGS</h4>
+          </div>
+        </div>
+      </section>
+
+      <!-- SECTION 8 -->
+
+      <section class="section8 row">
+        <div class="col-12 py-5 d-flex justify-content-center dark-back">
+          <div class="cuadro text-center">
+            <svg
+              xmlns="http://www.w3.org/2000/svg"
+              width="100"
+              height="100"
+              fill="currentColor"
+              class="bi bi-quote comillas"
+              viewBox="0 0 16 16"
+            >
+              <path
+                d="M12 12a1 1 0 0 0 1-1V8.558a1 1 0 0 0-1-1h-1.388c0-.351.021-.703.062-1.054.062-.372.166-.703.31-.992.145-.29.331-.517.559-.683.227-.186.516-.279.868-.279V3c-.579 0-1.085.124-1.52.372a3.322 3.322 0 0 0-1.085.992 4.92 4.92 0 0 0-.62 1.458A7.712 7.712 0 0 0 9 7.558V11a1 1 0 0 0 1 1h2Zm-6 0a1 1 0 0 0 1-1V8.558a1 1 0 0 0-1-1H4.612c0-.351.021-.703.062-1.054.062-.372.166-.703.31-.992.145-.29.331-.517.559-.683.227-.186.516-.279.868-.279V3c-.579 0-1.085.124-1.52.372a3.322 3.322 0 0 0-1.085.992 4.92 4.92 0 0 0-.62 1.458A7.712 7.712 0 0 0 3 7.558V11a1 1 0 0 0 1 1h2Z"
+              />
+            </svg>
+            <h4 class="text-white fw-1">TESTIMONIALS</h4>
+            <p class="text-white">
+              Lorem ipsum dolor sit, amet consectetur adipisicing elit. Quisquam
+              a impedit dolorum nihil? Et excepturi cupiditate pariatur
+              veritatis libero assumenda!
+            </p>
+          </div>
+        </div>
+      </section>
+    </main>
+
+    <!-- FOOTER -->
+    <footer class="row gy-3 justify-content-center">
+      <div class="col-12 d-flex justify-content-center">
+        <img src="./images/logo2.png" alt="logo" />
+      </div>
+      <div class="col-12 d-flex justify-content-between logos">
+        <svg
+          xmlns="http://www.w3.org/2000/svg"
+          width="20"
+          height="20"
+          fill="currentColor"
+          class="bi bi-facebook"
+          viewBox="0 0 16 16"
+        >
+          <path
+            d="M16 8.049c0-4.446-3.582-8.05-8-8.05C3.58 0-.002 3.603-.002 8.05c0 4.017 2.926 7.347 6.75 7.951v-5.625h-2.03V8.05H6.75V6.275c0-2.017 1.195-3.131 3.022-3.131.876 0 1.791.157 1.791.157v1.98h-1.009c-.993 0-1.303.621-1.303 1.258v1.51h2.218l-.354 2.326H9.25V16c3.824-.604 6.75-3.934 6.75-7.951z"
+          />
+        </svg>
+        <svg
+          xmlns="http://www.w3.org/2000/svg"
+          width="20"
+          height="20"
+          fill="currentColor"
+          class="bi bi-twitter"
+          viewBox="0 0 16 16"
+        >
+          <path
+            d="M5.026 15c6.038 0 9.341-5.003 9.341-9.334 0-.14 0-.282-.006-.422A6.685 6.685 0 0 0 16 3.542a6.658 6.658 0 0 1-1.889.518 3.301 3.301 0 0 0 1.447-1.817 6.533 6.533 0 0 1-2.087.793A3.286 3.286 0 0 0 7.875 6.03a9.325 9.325 0 0 1-6.767-3.429 3.289 3.289 0 0 0 1.018 4.382A3.323 3.323 0 0 1 .64 6.575v.045a3.288 3.288 0 0 0 2.632 3.218 3.203 3.203 0 0 1-.865.115 3.23 3.23 0 0 1-.614-.057 3.283 3.283 0 0 0 3.067 2.277A6.588 6.588 0 0 1 .78 13.58a6.32 6.32 0 0 1-.78-.045A9.344 9.344 0 0 0 5.026 15z"
+          />
+        </svg>
+        <svg
+          xmlns="http://www.w3.org/2000/svg"
+          width="20"
+          height="20"
+          fill="currentColor"
+          class="bi bi-instagram"
+          viewBox="0 0 16 16"
+        >
+          <path
+            d="M8 0C5.829 0 5.556.01 4.703.048 3.85.088 3.269.222 2.76.42a3.917 3.917 0 0 0-1.417.923A3.927 3.927 0 0 0 .42 2.76C.222 3.268.087 3.85.048 4.7.01 5.555 0 5.827 0 8.001c0 2.172.01 2.444.048 3.297.04.852.174 1.433.372 1.942.205.526.478.972.923 1.417.444.445.89.719 1.416.923.51.198 1.09.333 1.942.372C5.555 15.99 5.827 16 8 16s2.444-.01 3.298-.048c.851-.04 1.434-.174 1.943-.372a3.916 3.916 0 0 0 1.416-.923c.445-.445.718-.891.923-1.417.197-.509.332-1.09.372-1.942C15.99 10.445 16 10.173 16 8s-.01-2.445-.048-3.299c-.04-.851-.175-1.433-.372-1.941a3.926 3.926 0 0 0-.923-1.417A3.911 3.911 0 0 0 13.24.42c-.51-.198-1.092-.333-1.943-.372C10.443.01 10.172 0 7.998 0h.003zm-.717 1.442h.718c2.136 0 2.389.007 3.232.046.78.035 1.204.166 1.486.275.373.145.64.319.92.599.28.28.453.546.598.92.11.281.24.705.275 1.485.039.843.047 1.096.047 3.231s-.008 2.389-.047 3.232c-.035.78-.166 1.203-.275 1.485a2.47 2.47 0 0 1-.599.919c-.28.28-.546.453-.92.598-.28.11-.704.24-1.485.276-.843.038-1.096.047-3.232.047s-2.39-.009-3.233-.047c-.78-.036-1.203-.166-1.485-.276a2.478 2.478 0 0 1-.92-.598 2.48 2.48 0 0 1-.6-.92c-.109-.281-.24-.705-.275-1.485-.038-.843-.046-1.096-.046-3.233 0-2.136.008-2.388.046-3.231.036-.78.166-1.204.276-1.486.145-.373.319-.64.599-.92.28-.28.546-.453.92-.598.282-.11.705-.24 1.485-.276.738-.034 1.024-.044 2.515-.045v.002zm4.988 1.328a.96.96 0 1 0 0 1.92.96.96 0 0 0 0-1.92zm-4.27 1.122a4.109 4.109 0 1 0 0 8.217 4.109 4.109 0 0 0 0-8.217zm0 1.441a2.667 2.667 0 1 1 0 5.334 2.667 2.667 0 0 1 0-5.334z"
+          />
+        </svg>
+        <svg
+          xmlns="http://www.w3.org/2000/svg"
+          width="20"
+          height="20"
+          fill="currentColor"
+          class="bi bi-linkedin"
+          viewBox="0 0 16 16"
+        >
+          <path
+            d="M0 1.146C0 .513.526 0 1.175 0h13.65C15.474 0 16 .513 16 1.146v13.708c0 .633-.526 1.146-1.175 1.146H1.175C.526 16 0 15.487 0 14.854V1.146zm4.943 12.248V6.169H2.542v7.225h2.401zm-1.2-8.212c.837 0 1.358-.554 1.358-1.248-.015-.709-.52-1.248-1.342-1.248-.822 0-1.359.54-1.359 1.248 0 .694.521 1.248 1.327 1.248h.016zm4.908 8.212V9.359c0-.216.016-.432.08-.586.173-.431.568-.878 1.232-.878.869 0 1.216.662 1.216 1.634v3.865h2.401V9.25c0-2.22-1.184-3.252-2.764-3.252-1.274 0-1.845.7-2.165 1.193v.025h-.016a5.54 5.54 0 0 1 .016-.025V6.169h-2.4c.03.678 0 7.225 0 7.225h2.4z"
+          />
+        </svg>
+      </div>
+    </footer>
+
+    <!-- JS Externo Bootstrap -->
+    <script
+      src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.1/dist/js/bootstrap.bundle.min.js"
+      integrity="sha384-HwwvtgBNo3bZJJLYd8oVXjrBZt8cqVSpeBNS5n7C8IVInixGAoxmnlMuBnhbgrkm"
+      crossorigin="anonymous"
+    ></script>
+  </body>
+</html>

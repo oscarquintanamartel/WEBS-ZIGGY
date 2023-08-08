@@ -1,0 +1,32 @@
+.section_1 {
+  background-image: url(../images/pic01.jpg);
+  background-size: cover;
+  background-position: center;
+  padding: 20vh 15vw;
+
+  .cartel {
+    background-color: var(--bs-body-color);
+    color: white;
+
+    p:last-child {
+      color: red;
+    }
+  }
+}
+
+.section_2 {
+  padding: 8vh 7vw;
+
+  img {
+    width: clamp(80px, 6rem, 120px);
+  }
+}
+
+.section_3 {
+  padding: 8vh 7vw;
+  background-color: var(--bs-primary-bg-subtle);
+}
+
+.section_4 {
+  padding: 8vh 7vw;
+}

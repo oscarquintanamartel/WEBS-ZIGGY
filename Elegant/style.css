@@ -1,0 +1,103 @@
+* {
+  margin: 0;
+  box-sizing: border-box;
+}
+
+.logo {
+  width: 35vw;
+  font-size: 32px;
+  font-weight: bold;
+  padding: 0 5vw;
+}
+
+nav {
+  height: 7vh;
+  height: 8vh;
+  display: flex;
+  padding-top: 1vh;
+  padding-bottom: 1vh;
+}
+
+.links {
+  font-size: 20px;
+  width: 65vw;
+  display: flex;
+  justify-content: space-evenly;
+  padding-top: 1vh;
+  padding-bottom: 1vh;
+}
+
+a {
+  text-decoration: none;
+  color: black;
+}
+
+.mando {
+  background-image: url(./images/fondo.jpg);
+  background-position: center;
+  background-size: cover;
+  padding: 30vh 5vw;
+  color: white;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-end;
+}
+
+h1 {
+  padding: 3vh;
+}
+
+.mando p {
+  background-color: rgb(22, 158, 199);
+  padding: 1.5vh 3vh;
+}
+
+/* MAIN */
+
+/* SECCIÓN 1 */
+.purpose {
+  display: flex;
+  text-align: center;
+  padding: 5vh;
+  gap: 3vw;
+}
+
+.purpose img {
+  /* clamp() --> le pasamos 3 medidas. Mínimo, ideal y máximo, siendo el mínimo y el máximo en px y la ideal en medida relativa */
+  width: clamp(50px, 5vw, 70px);
+}
+
+h3 {
+  padding: 1vw;
+  color: rgb(22, 158, 199);
+}
+
+/* SECCIÓN 2 */
+
+.sect2 {
+  background-color: lightgray;
+  padding: 2vh 4vw;
+}
+
+.black {
+  color: black;
+}
+
+hr {
+  border: 1px solid black;
+}
+
+.mandos_padre {
+  display: flex;
+  flex-direction: column;
+}
+
+.mandos {
+  display: flex;
+  justify-content: space-between;
+  padding: 1vh 0;
+}
+
+.mandos img {
+  width: 20vw;
+}

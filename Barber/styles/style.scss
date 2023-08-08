@@ -1,0 +1,181 @@
+@import url("https://fonts.googleapis.com/css2?family=Antonio:wght@100;200;300;400;500;600;700&family=Merriweather:ital,wght@0,300;0,400;0,700;0,900;1,300;1,400;1,700;1,900&family=Passion+One&display=swap");
+
+* {
+  font-family: "Passion";
+}
+nav {
+  .separation {
+    padding: 0 10vw;
+  }
+
+  h5 {
+    color: #ae7b5b;
+  }
+}
+
+/* MAIN */
+h5 {
+  color: #ae7b5b;
+}
+
+h4 {
+  font-weight: bold;
+}
+
+hr {
+  border-width: 3px;
+  border-color: #ae7b5b;
+  width: clamp(65px, 8vw, 100px);
+  opacity: 1;
+}
+
+button {
+  border: none;
+  color: white;
+  padding: 1vh 1vw;
+  background-color: #ae7b5b;
+}
+
+/* SECTION1 */
+.section1 {
+  background-image: url("../images/foto1.jpeg");
+  background-size: cover;
+  background-position: center;
+  padding: 18vw;
+  padding-right: 15vw;
+
+  img {
+    width: 10vw;
+  }
+}
+
+/* SECTION 2 */
+.section2 {
+  background-color: #f8fbf6;
+  padding: 7vh 10vw;
+
+  img {
+    width: 100%;
+    object-fit: cover;
+    object-position: center;
+  }
+}
+
+/* SECTION 3 */
+.section3 {
+  padding: 7vh 10vw;
+
+  img {
+    width: 23rem;
+    aspect-ratio: 1/1;
+    object-fit: cover;
+    object-position: center;
+  }
+}
+
+/* SECTION 4 */
+.section4 {
+  background-image: url("../images/logo2.png");
+  background-color: #d7dbd6;
+  background-position: center;
+  background-size: 35%;
+  background-repeat: no-repeat;
+  padding: 7vh 10vw;
+}
+
+/* SECTION 5 */
+.section5 {
+  padding: 7vh 10vw;
+
+  img {
+    width: clamp(250px, 100%, 250px);
+    object-position: center;
+  }
+
+  .beardcut {
+    height: 40vh;
+
+    img {
+      width: clamp(365px, 37vw, 560px);
+    }
+  }
+
+  .dark_frame {
+    padding: 2vw 1vw;
+    background-color: rgba(0, 0, 0, 0.801);
+    border: 1px solid white;
+    box-shadow: 0px 0px 0px 10px rgba(0, 0, 0, 0.801);
+  }
+
+  .light_frame {
+    border: 1px solid black;
+    padding: 2vh 12vw;
+  }
+}
+
+/* SECTION 6 */
+.section6 {
+  background-color: #f8fbf6;
+  padding: 7vh 10vw;
+
+  img {
+    width: 100%;
+  }
+}
+
+/* SECTION 7 */
+.section7 {
+  padding: 5vh 10vw;
+  background-color: #d7dbd6;
+
+  .bg-white {
+    background-color: white;
+    padding: 2vw 0;
+  }
+
+  img {
+    width: 70%;
+  }
+}
+
+/* SECTION 8*/
+.section8 {
+  background-image: url("../images/foto15.jpeg");
+  background-size: 100%;
+  background-position: center;
+  background-repeat: no-repeat;
+
+  .dark-back {
+    background-color: rgba(0, 0, 0, 0.345);
+  }
+
+  .cuadro {
+    width: 50%;
+    border: 1px solid white;
+    padding: 2vw;
+
+    .comillas {
+      color: #ae7b5b;
+      transform: rotate(-180deg);
+    }
+  }
+}
+
+/* FOOTER */
+footer {
+  background-color: black;
+  padding: 10vh;
+
+  img {
+    width: clamp(120px, 5vw, 150px);
+  }
+
+  .logos {
+    width: clamp(160px, 15%, 210px);
+  }
+
+  svg {
+    filter: invert(100%);
+    opacity: 1;
+  }
+}

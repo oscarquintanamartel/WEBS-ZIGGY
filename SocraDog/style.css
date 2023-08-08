@@ -1,0 +1,179 @@
+* {
+  margin: 0;
+  font-family: sans-serif;
+  box-sizing: border-box;
+}
+
+::selection {
+  background-color: orange;
+}
+/* HEADER */
+
+nav {
+  height: 10vh;
+  width: 100vw;
+  background-color: rgba(0, 0, 0, 0.666);
+  display: flex;
+  align-items: center;
+  position: fixed;
+}
+
+nav div {
+  width: 50%;
+}
+
+.n_div_1 {
+  font-size: 1.5rem;
+  padding-left: 5vw;
+  display: flex;
+  align-items: center;
+}
+
+.n_div_2 {
+  display: flex;
+  justify-content: space-evenly;
+  font-size: larger;
+}
+
+a {
+  text-decoration: none;
+  color: white;
+}
+
+a:hover {
+  color: orange;
+}
+
+nav img {
+  width: clamp(20px, 5vw, 35px);
+  filter: invert();
+}
+
+/* SECTION 1 */
+
+.section_1 {
+  text-align: center;
+}
+
+.sect_1_div {
+  background-image: url(./imagenes/images/portada1.jpg);
+  background-position: center;
+  background-size: cover;
+  height: 90vh;
+  display: flex;
+  justify-content: left;
+  align-items: center;
+}
+
+h1 {
+  color: white;
+  padding-right: 55vw;
+  padding-left: 3vw;
+}
+
+/* MAIN */
+
+/* SECTION SERVICIOS */
+.servicios {
+  display: flex;
+  justify-content: center;
+  text-align: center;
+  padding: 5vw 10vw;
+  gap: 5vw;
+}
+
+.servicios div {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.servicios_1,
+.servicios_2,
+.servicios_3,
+.servicios_4 {
+  gap: 7vh;
+}
+
+.servicios img {
+  width: 4vw;
+  padding: 0.5vw;
+}
+
+.border {
+  text-align: center;
+  width: 5vw;
+  border: 2px solid black;
+  border-radius: 50%;
+}
+
+.border:hover {
+  color: 1px orange;
+}
+
+/* SECTION PORTADA 2 */
+
+.sticky {
+  background-image: url(./imagenes/images/portada2.jpg);
+  background-position: center;
+  background-size: cover;
+  height: 50vh;
+  position: sticky;
+  top: 10vh;
+  z-index: -1;
+}
+
+/* AMIGOS */
+
+.section_4 {
+  padding: 5vw 7vw;
+  background-color: white;
+  text-align: center;
+}
+
+h2 {
+  margin-bottom: 50px;
+}
+
+.amigos_1 {
+  display: flex;
+  justify-content: space-between;
+  flex-wrap: wrap;
+  gap: 50px;
+}
+
+.perro {
+  width: calc(25% - 50px);
+  height: 400px;
+  margin-bottom: 20px;
+}
+
+.perro img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  object-position: center;
+}
+
+.perro:hover {
+  transform: scale(1.2);
+  transition: all 1s;
+}
+
+/* FOOTER */
+
+footer {
+  height: 15vh;
+  background-color: rgba(0, 0, 0, 0.666);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 3vw;
+}
+
+footer img {
+  width: 30px;
+  height: 30px;
+  filter: invert();
+}
